@@ -1,6 +1,6 @@
 let player = {
     name: "Shashwat",
-    chips: Math.floor(Math.random() * 100) + 1
+    chips: Math.floor(Math.random() * 100) + 54
 }
 
 let cards = []
