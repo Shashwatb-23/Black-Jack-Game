@@ -1,15 +1,29 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-name">
         <h1>Blackjack</h1>
+      </div>
+      <div class="game-area">
+        <div class="message-display">
         <p id="message-el">Want to play a round?</p>
+        </div>
         <p id="cards-el">Cards:</p>
         <p id="sum-el">Sum:</p>
-        <button onclick="startGame()">START GAME</button>
-        <button onclick="newCard()">NEW CARD</button>
-        <p id="player-el"></p>
-        <script src="index.js"></script>
-    </body>
+      </div>
+      <button onclick="startGame()">START GAME</button>
+      <button onclick="newCard()">NEW CARD</button>
+      <div class="score-board-name">
+      <p id="player-el"></p>
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
 </html>
